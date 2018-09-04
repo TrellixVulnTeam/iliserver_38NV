@@ -1,0 +1,30 @@
+{
+  "name": "RESTful-API",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "init-cloudsql": "node ili/model-cloudsql.js"
+  },
+
+  "dependencies": {
+    "@google-cloud/datastore": "~1.0.0",
+    "body-parser": "~1.17.1",
+    "express": "~4.15.2",
+    "lodash": "~4.17.4",
+    "mongodb": "~2.2.25",
+    "mysql": "~2.13.0",
+    "nconf": "~0.8.4",
+    "md5": "~2.2.1",
+    "prompt": "~1.0.0"
+  },
+  "devDependencies": {
+    "ava": "~0.19.1",
+    "nodejs-repo-tools": "git+https://git@github.com/GoogleCloudPlatform/nodejs-repo-tools.git",
+    "proxyquire": "~1.7.11",
+    "sinon": "~2.1.0",
+    "tap-dot": "~1.0.5"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}
